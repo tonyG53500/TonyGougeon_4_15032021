@@ -644,7 +644,8 @@ h5,
 h6,
 p,
 label,
-.btn {
+.btn,
+blockquote {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -708,6 +709,15 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+}
+blockquote {
+    font-size: 18px;
+    color: black!important;
+    font-style: italic;
+}
+blockquote span {
+    font-style: normal;
+    font-size: 14px;
 }
 
 h3 {
